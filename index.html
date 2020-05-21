@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Board game Ranking</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <script src="jquery.min.js"></script>
+  <script src="data.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <script src="radarchart.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet"> 
+  <!--<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Lobster&effect=brick-sign">-->
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet"> 
+</head>
+
+
+<body>
+  <div id="holder">
+    <div id="title-div">
+      <p id="title-p">Feudum </p>
+    </div>
+    <div id="chart"></div>
+    <!--<tspan dx="0.15em" dy="0.31em" class="centered">😞</tspan>-->
+
+
+    <div id="controls">
+      <label for="games">Choose a game:</label>
+      <select id="games" name="games"> 
+
+      </select>
+    </div>
+
+    <div id="img-holder-div">
+      <img id="cover-img">
+    </div>
+
+    <script src="main.js"></script>
+  </div>
+</body>
+</html>
